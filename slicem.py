@@ -2,7 +2,7 @@
 #
 # Will Zywiec
 #
-# turns the first sphere in a MCNP input deck into a series of conical frustums
+# turns the first sphere in an MCNP input deck into a series of conical frustums
 # with a user-defined number of segments
 #
 # python -c 'from slicem import dicem; dicem(segments)'

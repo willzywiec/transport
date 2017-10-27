@@ -15,7 +15,7 @@ MCNP Scripts
 removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **slicem.py**  
-turns the first sphere in a MCNP input deck into a series of conical frustums with a user-defined number of segments
+turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments
 
 Misc
 ==========
