@@ -5,7 +5,7 @@
 # turns the first sphere in a COG input deck into a series of conical frustums
 # with a user-defined number of segments
 #
-# python -c 'from slicec import dice; dice(segments)'
+# >> python -c 'from slicec import dice; dice(segments)'
 
 import math, sys
 from os import getcwd, listdir

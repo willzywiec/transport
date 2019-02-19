@@ -4,7 +4,7 @@
 #
 # runs all files (in serial mode) in a directory as either COG11 or MCNP6 input decks
 #
-# 'screen python batch.py'
+# >> screen python batch.py
 
 from os import getcwd, listdir, system
 from os.path import isfile, join

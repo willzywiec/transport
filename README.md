@@ -1,3 +1,5 @@
+These scripts were created for 'A Solid of Revolution Time Study using COG11.1 and MCNP6.1', which is a paper I wrote in 2016.
+
 COG Scripts
 ==========
 **slice.py**  

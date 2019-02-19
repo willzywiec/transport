@@ -5,7 +5,7 @@
 # turns the first sphere in an MCNP input deck into a series of conical frustums
 # with a user-defined number of segments
 #
-# python -c 'from slicem import dicem; dicem(segments)'
+# >> python -c 'from slicem import dicem; dicem(segments)'
 
 import math, sys
 from os import getcwd, listdir
