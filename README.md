@@ -18,5 +18,11 @@ turns the first sphere in an MCNP input deck into a series of conical frustums w
 
 ## Misc
 
+**batch.py**  
+runs all COG and MCNP input decks
+
+**keff.py**  
+tabulates keff and standard deviation for all COG and MCNP output files
+
 **param.py**  
 imports dice, dicec, and dicem functions and creates a set of COG and MCNP input decks
