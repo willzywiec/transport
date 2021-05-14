@@ -4,23 +4,23 @@ These scripts were created for "A Solid of Revolution Time Study using COG11.1 a
 
 ## COG Scripts
 **cog_slice.py**  
-slice function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
-dice function turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
+**slice** function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
+**dice** function turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
 
 ## MCNP Scripts
 **cc.py**  
 removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **mcnp_slice.py**  
-slice function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
-dice function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
+**slice** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
+**dice** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
 
 ## Misc
 
 **batch.py**  
 runs and times all COG and MCNP input decks
 
-**jezebel.cog** and **jezebel.mcnp**
+**jezebel.cog** and **jezebel.mcnp**  
 example COG and MCNP input decks
 
 **keff.py**  
