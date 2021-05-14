@@ -5,15 +5,15 @@
 # turns the first sphere in an MCNP input deck into a series of conical frustums
 # with a user-defined number of segments
 #
-# >> python -c 'from mcnp_slice import slice; slice(file, segments)'
+# >> python -c 'from mcnp_slice import mcnp_cone; mcnp_cone(file, segments)'
 #
-# >> python -c 'from mcnp_slice import dice; dice(file, segments)'
+# >> python -c 'from mcnp_slice import mcnp_nounion; mcnp_nounion(file, segments)'
 
 import math, sys
 from os import getcwd, listdir
 from os.path import isfile, join
 
-def slice(file, segments):
+def mcnp_cone(file, segments):
 
 	degrees = 90 / (float(segments) / 2)
 
@@ -190,7 +190,7 @@ def slice(file, segments):
 	f.close()
 	nF.close()
 
-  def dice(file, segments):
+  def mcnp_nounion(file, segments):
 
   degrees = 90 / (float(segments) / 2)
 

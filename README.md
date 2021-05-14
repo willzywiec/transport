@@ -4,16 +4,16 @@ These scripts were created for "A Solid of Revolution Time Study using COG11.1 a
 
 ## COG Scripts
 **cog_slice.py**  
-the **slice** function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
-the **dice** function turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
+the **cog_solid** function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
+the **cog_cone** function turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
 
 ## MCNP Scripts
 **cc.py**  
 removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **mcnp_slice.py**  
-the **slice** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
-the **dice** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
+the **mcnp_cone** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
+the **mcnp_nounion** function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
 
 ## Misc
 
@@ -27,4 +27,4 @@ example COG and MCNP input decks
 tabulates keff and standard deviation for all COG and MCNP output files
 
 **param.py**  
-imports dice, dicec, and dicem functions and creates a set of COG and MCNP input decks
+imports cog_solid, cog_cone, mcnp_cone, and mcnp_nounion functions and creates a set of COG and MCNP input decks

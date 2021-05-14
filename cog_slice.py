@@ -5,15 +5,15 @@
 # turns the first sphere in a COG input deck into a solid of revolution
 # with a user-defined number of segments
 #
-# >> python -c 'from cog_slice import slice; slice(file, segments)'
+# >> python -c 'from cog_slice import cog_solid; cog_solid(file, segments)'
 #
-# >> python -c 'from cog_slice import dice; dice(file, segments)'
+# >> python -c 'from cog_slice import cog_cone; cog_cone(file, segments)'
 
 import math, sys
 from os import getcwd, listdir
 from os.path import isfile, join
 
-def slice(file, segments):
+def cog_solid(file, segments):
 
   degrees = 90 / (float(segments) / 2)
 
@@ -139,7 +139,7 @@ def slice(file, segments):
   f.close()
   nF.close()
 
-def dice(file, segments):
+def cog_cone(file, segments):
 
 	degrees = 90 / (float(segments) / 2)
 
