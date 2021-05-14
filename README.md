@@ -7,7 +7,7 @@ The joke I made during my presentation is that the Egyptians invented the lathe 
   
 **TL;DR**: COG has a solid of revolution feature, MCNP does not. I built a toy problem to show the trade-off between problem complexity and simulation speed for two geometrically equivalent pseudo-spheres.  
   
-To use these scripts, just run **param.py** (builds COG and MCNP input deck) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, just modify **batch.py**.  
+To use these scripts, just run **param.py** (builds COG and MCNP input deck) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, just modify **batch.py**. The codes themselves are export-controlled, so it's up to the user to install and configure them properly.
   
 **Backstory**: I have a longstanding, silent beef with physicists and engineers who develop their own geometry libraries from scratch, mostly because they end up forcing everyone else to use geometric primitives and poorly implemented mesh controls. There are experts out there who have a deep understanding and mastery of this topic and have already developed state-of-the-art libraries (https://www.cgal.org/). When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
 
