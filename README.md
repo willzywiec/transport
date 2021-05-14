@@ -4,7 +4,7 @@ These scripts were created for "A Solid of Revolution Time Study using COG11.1 a
 
 ## COG Scripts
 **cog_slice.py**  
-slice function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments
+slice function turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
 dice function turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
 
 ## MCNP Scripts
@@ -12,7 +12,7 @@ dice function turns the first sphere in a COG input deck into a series of conica
 removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **mcnp_slice.py**  
-slice function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments
+slice function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
 dice function turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
 
 ## Misc
