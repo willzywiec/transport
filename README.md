@@ -1,6 +1,7 @@
 # Transport
 
 These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).  
+  
 They were made specifically to highlight how necessary solids/surfaces of revolution are for modeling combinatorial geometry. The joke I made during my presentation is that Egyptians invented the lathe sometime around 1300 BC because they understood the value of turning stone and wood. Unlike the Egyptians, my counterparts at Los Alamos still haven't figured out how to include a similar feature in their code. Needless to say, the joke didn't land, and as of this writing, MCNP still doesn't have this feature, which I think should be standardized across all radiation transport codes. I also included COG and MCNP versions of the Jezebel benchmark, which I used as a toy problem in my paper.
 
 ## COG Scripts
