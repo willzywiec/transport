@@ -1,0 +1,25 @@
+PU-MET-FAST-001 239Pu Jezebel
+
+basic neutron delayedn URRPT
+
+surfaces 1 sphere 6.3849
+
+geometry
+  sector 1 alloy -1
+  boundary vacuum +1
+
+criticality
+  npart=5000
+  nbatch=500
+  sdt=0.0001
+  nfirst=100
+  norm=1
+  nsource=1 0 0 0
+
+mix
+  nlib=MCNP.71nc
+  ptlib=PT.MCNP.71nc
+  mat=1 bunches ga 1.3752-3 pu239 3.7047-2
+  pu240 1.7512-3 pu241 1.1674-4
+
+end
