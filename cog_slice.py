@@ -96,7 +96,7 @@ def cog_solid(file, segments):
       i += 1
 
   # write output file
-  newFile = file + 'c-' + str(segments)
+  newFile = file + '-' + str(segments)
 
   f = open(file)
 

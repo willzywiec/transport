@@ -190,7 +190,7 @@ def mcnp_cone(file, segments):
 	f.close()
 	nF.close()
 
-  def mcnp_nounion(file, segments):
+def mcnp_nounion(file, segments):
 
   degrees = 90 / (float(segments) / 2)
 
