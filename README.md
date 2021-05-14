@@ -1,9 +1,11 @@
 # Transport
 
 These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).
-They were made specifically to highlight how necessary solids/surfaces of revolution are for modeling combinatorial geometry.  
+These scripts were made specifically to highlight how necessary solids/surfaces of revolution are for modeling combinatorial geometry.  
   
 The joke I made during my presentation is that the Egyptians invented the lathe sometime around 1300 BC because they understood the value of turning stone and wood. Unlike the Egyptians, my counterparts at Los Alamos still haven't figured out how to implement a similar feature in their code. Needless to say, the joke didn't land and was considered to be somewhat inflammatory. As of this writing, however, MCNP still doesn't have this feature, which I think should be standardized across all radiation transport codes. I also included COG and MCNP versions of the Jezebel benchmark, which I used as a toy problem in my paper.  
+  
+**TL;DR**: COG has a solid of revolution feature, MCNP does not. I built a toy problem to show the trade-off between problem complexity and simulation speed for two geometrically equivalent pseudo-spheres.  
   
 To use these scripts, just run **param.py** (builds COG and MCNP input deck) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, just modify **batch.py**.  
   
