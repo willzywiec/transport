@@ -20,6 +20,9 @@ dice function turns the first sphere in an MCNP input deck into a series of coni
 **batch.py**  
 runs and times all COG and MCNP input decks
 
+**jezebel.cog** and **jezebel.mcnp**
+example COG and MCNP input decks
+
 **keff.py**  
 tabulates keff and standard deviation for all COG and MCNP output files
 
