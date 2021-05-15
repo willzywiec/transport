@@ -3,7 +3,7 @@
 These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).
 These scripts were made specifically to highlight how necessary solids/surfaces of revolution are for modeling combinatorial geometry.  
   
-The joke I made during my presentation is that the Egyptians invented the lathe sometime around 1300 BC because they understood the value of rotational symmetry when turning stone and wood. Unlike the Egyptians, my counterparts at Los Alamos still haven't figured out how to implement a similar feature in their code. Needless to say, the joke didn't land and was considered to be somewhat inflammatory. As of this writing, however, MCNP still doesn't have this feature, which I think should be standardized across all radiation transport codes.
+The joke I made during my presentation is that the Egyptians invented the lathe sometime around 1300 BC because they understood the value of rotational symmetry when turning stone and wood. Unlike the Egyptians, my counterparts at Los Alamos still haven't figured out how to implement a similar feature in MCNP. Needless to say, the joke didn't land and was considered to be somewhat inflammatory. As of this writing, however, MCNP still doesn't have this feature, which I think should be standardized across all radiation transport codes.
   
 **TL;DR**: COG has a solid of revolution feature, MCNP does not. I built a toy problem to show the trade-off between problem complexity and simulation speed for two geometrically equivalent pseudo-spheres.  
   
