@@ -1,7 +1,7 @@
 # Transport
 
 These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).
-These scripts were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry.  
+These scripts were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry in Monte Carlo radiation transport codes.  
   
 To use these scripts, run **param.py** (builds COG and MCNP input decks) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, modify **batch.py**. The codes themselves are export-controlled, so it's up to the user to install and configure them properly
   
