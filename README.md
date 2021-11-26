@@ -1,15 +1,17 @@
 # Transport
 
 These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).
-These scripts were made specifically to highlight how necessary solids/surfaces of revolution are for modeling combinatorial geometry.  
+These scripts were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry.  
   
-The joke I made during my presentation is that the Egyptians invented the lathe sometime around 1300 BC because they understood the value of turning stone and wood. Unlike the Egyptians, my counterparts at Los Alamos still haven't figured out how to implement a similar feature in their code. Needless to say, the joke didn't land and was considered to be somewhat inflammatory. As of this writing, however, MCNP still doesn't have this feature, which I think should be standardized across all radiation transport codes.
+To use these scripts, run **param.py** (builds COG and MCNP input decks) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, modify **batch.py**. The codes themselves are export-controlled, so it's up to the user to install and configure them properly
   
-**TL;DR**: COG has a solid of revolution feature, MCNP does not. I built a toy problem to show the trade-off between problem complexity and simulation speed for two geometrically equivalent pseudo-spheres.  
+**Backstory**:
   
-To use these scripts, just run **param.py** (builds COG and MCNP input decks) and then **batch.py** (runs COG and MCNP). If you want to use the current versions of either code, just modify **batch.py**. The codes themselves are export-controlled, so it's up to the user to install and configure them properly.
+Whenever someone presents a new Monte Carlo radiation transport code, I usually ask if the developers wrote their own geometry libraries from scratch. If the answer is 'yes', I usually dismiss the entire code because I'm not interested in using poorly implemented geometric primitives and meshes.
   
-**Backstory**: I have a longstanding, silent beef with physicists and engineers who develop their own geometry libraries from scratch, mostly because they end up forcing everyone else to use geometric primitives and poorly implemented mesh controls. There are experts out there who have a deep understanding and mastery of this topic and have already developed state-of-the-art libraries (https://www.cgal.org/). When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
+There are experts out there who have a deep understanding and mastery of this topic and have already developed state-of-the-art libraries (https://www.cgal.org/), which everyone should be using.
+  
+When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
 
 ## COG Scripts
 **cog_slice.py**  
