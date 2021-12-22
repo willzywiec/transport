@@ -17,8 +17,7 @@ When it comes to geometry, I prefer a buffet of kernels and visualization option
 * **cog_cone** turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
 
 ## MCNP Scripts
-**cc.py**  
-removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
+**cc.py** removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **mcnp_slice.py**  
 * **mcnp_cone** turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
