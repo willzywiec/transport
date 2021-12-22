@@ -13,16 +13,16 @@ When it comes to geometry, I prefer a buffet of kernels and visualization option
 
 ## COG Scripts
 **cog_slice.py**  
-**cog_solid** turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
-**cog_cone** turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
+* **cog_solid** turns the first sphere in a COG input deck into a solid of revolution with a user-defined number of segments  
+* **cog_cone** turns the first sphere in a COG input deck into a series of conical frustums with a user-defined number of segments
 
 ## MCNP Scripts
 **cc.py**  
 removes all MCNP 'comou', 'out', 'runtp', and 'srct' files from a directory
 
 **mcnp_slice.py**  
-**mcnp_cone** turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
-**mcnp_nounion** turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
+* **mcnp_cone** turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments  
+* **mcnp_nounion** turns the first sphere in an MCNP input deck into a series of conical frustums with a user-defined number of segments with no unions
 
 ## Misc
 
