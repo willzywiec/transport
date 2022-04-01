@@ -7,9 +7,9 @@ To use these scripts, run **param.py** (builds COG and MCNP input decks) and the
   
 **Backstory**:
   
-Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch. Whenever I encounter a new code that's "way faster" or "solves (insert problem)", I never want to use it because the geometry sucks! There are experts out there who have a deep understanding and mastery of this topic and have already developed state-of-the-art libraries (https://www.cgal.org/), which everyone should be using.
+Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch. Whenever I encounter a new code that's "way faster" or "solves (insert problem here)", I never want to use it because the geometry sucks!
   
-When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
+When it comes to geometry, I prefer a buffet of kernels and visualization options (https://www.cgal.org/), so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
 
 ## COG Scripts
 **cog_slice.py**  
