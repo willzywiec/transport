@@ -1,13 +1,13 @@
 # A Solid of Revolution Time Study using COG11.1 and MCNP6.1
 
-These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/pdf/804831.pdf).
-These scripts were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry in Monte Carlo radiation transport codes.  
+These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1" (https://cog.llnl.gov/pdf/804831.pdf).
+They were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry in Monte Carlo radiation transport codes.  
   
 To use these scripts, run **param.py** (builds COG and MCNP input decks) and then **batch.py** (runs COG and MCNP). The codes themselves are export-controlled, so it's up to the user to install and configure them properly.  
   
 **Backstory**:
   
-Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch. Whenever I encounter a new code that's "way faster" or "solves (insert problem here)", I never want to use it because the geometry sucks! Instead of literally reinventing the wheel, why not use state-of-the-art geometry libraries that someone else took the time to make (https://www.cgal.org/)?
+Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch. Instead of reinventing the wheel, why not use state-of-the-art geometry libraries that someone else took the time to make (https://www.cgal.org/)?
   
 When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
 
