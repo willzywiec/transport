@@ -7,7 +7,7 @@ To use these scripts, run **param.py** (builds COG and MCNP input decks) and the
   
 **Backstory**:
   
-Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch. Instead of reinventing the wheel, why not use state-of-the-art geometry libraries that someone else took the time to make (https://www.cgal.org/)?
+Radiation transport code developers have a bad habit of writing their own geometry libraries from scratch, which typically translates into frustration when users want to model something other than spheres, cylinders, and poorly implemented meshes. Instead of reinventing the wheel, why not use state-of-the-art geometry libraries that someone else took the time to make (https://www.cgal.org/)?
   
 When it comes to geometry, I prefer a buffet of kernels and visualization options, so on that note, I'll give a shout-out to Geant4 and the team at Royal Holloway for doing all the hard work to solve (or at least amortize) this problem (https://arxiv.org/pdf/2010.01109.pdf).
 
