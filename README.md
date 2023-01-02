@@ -1,6 +1,6 @@
 # A Solid of Revolution Time Study using COG11.1 and MCNP6.1
 
-These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016 (https://cog.llnl.gov/publications).
+These scripts were created for "A Solid of Revolution Time Study using COG11.1 and MCNP6.1", a paper I wrote in 2016.
 They were made specifically to highlight why solids of revolution are necessary for modeling combinatorial geometry in Monte Carlo radiation transport codes.  
   
 To use these scripts, run **param.py** (builds COG and MCNP input decks) and then **batch.py** (runs COG and MCNP). The codes themselves are export-controlled, so it's up to the user to install and configure them properly.  
@@ -37,3 +37,7 @@ tabulates keff and standard deviation for all COG and MCNP output files
 
 **param.py**  
 imports **cog_solid**, **cog_cone**, **mcnp_cone**, and **mcnp_nounion** functions and creates a set of COG and MCNP input decks using the **cog_solid** and **mcnp_cone** functions (**cog_cone** and **mcnp_nounion** functions are commented out)
+
+## References
+
+ https://cog.llnl.gov/publications  
